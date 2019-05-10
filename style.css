@@ -1,0 +1,31 @@
+#first{
+	font-weight: bold;
+	float: right;
+}
+.head{
+	background-color:#EDEDED;
+}
+li{
+	display: inline;
+}
+nav{
+	background-color: #653D3D;
+}
+#blog{
+	background-color: #978484;
+}
+.images {
+  width: 800px;
+  height: 800px;
+  margin: 0 auto;
+}
+
+.images > img {
+  float: left;
+  border: 2px solid black;
+  width: 45%;
+  margin: 1.66%;
+}
+.footer{
+	position: center;
+}
