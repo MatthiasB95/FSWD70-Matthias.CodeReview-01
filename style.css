@@ -1,31 +1,137 @@
-#first{
-	font-weight: bold;
-	float: right;
+body{
+  background: black;
+  margin: 0;
+    
 }
-.head{
-	background-color:#EDEDED;
-}
-li{
-	display: inline;
-}
-nav{
-	background-color: #653D3D;
-}
-#blog{
-	background-color: #978484;
-}
-.images {
-  width: 800px;
-  height: 800px;
+#container{
+  height: 100%;
+  border: solid white;
+  position: relative;
+  background: white;
   margin: 0 auto;
+  text-align: justify;
+  width: 615px; 
+
+}
+.head{ 
+  background-color:#EDEDED;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  
+}
+#img_header{
+  position: left;
+  margin-left: -30px; 
+  height: 65px;
 }
 
-.images > img {
-  float: left;
-  border: 2px solid black;
-  width: 45%;
-  margin: 1.66%;
+#text{
+  text-align: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 16px;
+  margin-left: -10px;
+}
+
+.nav_bar{
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  height: 20px;
+  background-color: #653D3D;
+  margin:5px;
+  margin-top: -15px;
+  text-align: left;
+}
+
+li{
+  display: inline;
+  color:white;
+  padding: 0px 5px;
+}
+
+.website{
+  background-color:white;
+  height: 200px; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin:5px;
+  margin-right: 5px;
+          
+}
+
+h1{
+  font-size: 50px;
+          
+}
+
+#blog{
+  font-size: 15px;
+	background-color: #978484;
+  margin:5px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  
+
+}
+#posts{
+  font-weight: bold;
+  color: white;
+  margin-left: 10px;
+
+}
+
+.images {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 450px;
+}
+.img{
+  text-align: justify;
+  width: 260px;
+}
+
+.images .img {
+  width: 50%;
+}
+
+.images img {
+  width: 260px;
+  height: 120px;
+  margin: 5px; 
+}
+
+#line{
+  background-color: #978484; 
+  widows: 100%;
+  height: 5px;
 }
 .footer{
-	position: center;
+  position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80px;
+  display: center;
+  text-align: justify;
+  widows: 130px;
 }
+
+#img_footer{
+  height: 50px;
+  width: 130px;
+  display: center;
+ } 
+footer #text_footer{
+  text-align: center;
+  display: block;
+}
+
